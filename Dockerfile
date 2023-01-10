@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY static.conf /etc/nginx/sites-enabled/static.conf
 COPY site /usr/share/nginx/html
